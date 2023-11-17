@@ -8,20 +8,22 @@
     </head>
     <body>
         <div class="toolbar">
-            <button>Home</button>
-            <button>About</button>
-            <button>Contact</button>
+            <button onclick="scrollToSection('Home')">Home</button>
+            <button onclick="scrollToSection('About')">About</button>
+            <button onclick="scrollToSection('Contact')">Contact</button>
         </div>
-        <header class="opening-title-intro">
-            <h4 class="opening-title-intro"><em>Hey, I'm</em></h4>
+        <header id="Home">
+            <h4 class="opening-title-intro">
+                <em>Hey, I'm</em>
+            </h4>
             <h2 class="opening-title-intro">
                 <strong>Zachary Haas</strong>
             </h2>
         </header>
-        <main>
+        <main id="About">
 
         </main>
-        <footer>
+        <footer id="Contact">
             <script src="script.js"></script>
         </footer>
     </body>
