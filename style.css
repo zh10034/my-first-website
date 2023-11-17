@@ -1,3 +1,22 @@
+body {
+    margin: 0;
+}
+.toolbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+}
+.toolbar button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.toolbar button:hover {
+    background-color: #777;
+}
 main {
     height: 300px;
     background-image: url('https://i.pinimg.com/originals/6b/41/7b/6b417bbb53e5e6302f5f2098f9786668.jpg');
@@ -6,5 +25,12 @@ main {
     background-repeat: no-repeat;
     margin: 0;
   }
-
-
+header {
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
