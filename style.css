@@ -1,24 +1,10 @@
-div.s-title-group.s-only-title-group {
-    background: black;
-    color: #fff;
-    text-align: center;
-    font-style: italic;
-    font-weight: inherit;
-    margin: 0%;
-    padding: 0%;
-    border: 0;
-}
-h4 {
-    font-size: 130%;
-}
-.navigation-buttons {
-position: fixed;
-bottom: 20px;
-right: 20px;
-z-index: 999;
-}
-.first-component-content.s-font-title {
-    text-align: center;
-    font-weight: bolder;
-    font-style: italic;
-}
+body {
+    background-image: url('C:\Users\zhaas\Downloads\download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
+
+
